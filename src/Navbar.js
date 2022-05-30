@@ -8,8 +8,8 @@ const Navbar = () => {
                 <li className="list-items">
                     <a href="/">Home</a>
                 </li>
-                <li className="list-items">
-                    <a href="/create">New Blog</a>
+                <li className="list-items" style={{ backgroundColor: "var(--themeColor4)", borderRadius: '30px'}}>
+                    <a href="/create" style={{color: 'white'}}>New Blogs</a>
                 </li>
             </ul>
         </nav>
