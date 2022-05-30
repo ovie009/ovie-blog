@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const title = 'My first React Blog';
+  const name = 'Ovie';
+  const age = 23;
+  const person = {
+    name: 'Esere',
+    age: 14
+  };
+  const link = 'google.com';
+  let fruits = ['orange', 'mango', 'cherry'];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content">
+        <h1>{title}</h1>
+        <p>{name}</p>
+        <p>{age}</p>
+        <p>{person.name}</p>
+        <p>{fruits[0]}</p>
+        <a href={link}>Google Site</a>
+      </div>
     </div>
   );
 }
