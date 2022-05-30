@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+
+:root{
+  --themeColor1 : #0487D9;
+  --themeColor2 : #04D99D;
+  --themeColor3 : #F2CB05;
+  --themeColor4 : #F24C3D;
+  --themeColor5 : #F2F2F2;
 }
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color Theme Swatches in Hex */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  background-color: var(--themeColor5);
+  color: rgb(50, 50, 50);
+}
+
+.content{
+  width: 100%;
+  padding: 50px 10%;
 }

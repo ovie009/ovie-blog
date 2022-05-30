@@ -1,7 +1,9 @@
+import './Navbar.css'
+
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>Ovie blog</h1>
+            <h1 className='logo'>Ovie blog</h1>
             <ul className="nav-list">
                 <li className="list-items">
                     <a href="/">Home</a>
