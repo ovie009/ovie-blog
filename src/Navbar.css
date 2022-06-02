@@ -24,6 +24,8 @@ nav{
 .list-items{
     box-sizing: unset;
     padding: 10px 20px;
+    display: flex;
+    align-items: center;
 }
 
 .list-items a{

@@ -62,10 +62,23 @@ body{
   color: var(--themeColor4);
   transition: ease .5s;
 }
+
 .delete-blog:hover{
   padding: 11px 22px;
   border-radius: 5px;
   box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.2);
   background-color: var(--themeColor4);
   color: var(--themeColor5);
+}
+
+.change-reviwer{
+  border: none;
+  margin-block: 20px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--themeColor2);
+  color: var(--themeColor5);
+  
 }
