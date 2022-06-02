@@ -39,7 +39,7 @@ body{
   border-bottom: 1px solid #fafafa;
   box-sizing: border-box;
   /* background-color: pink; */
-  height: 170px;
+  height: 100px;
 }
 
 .blog-preview:hover{
