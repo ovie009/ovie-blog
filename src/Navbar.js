@@ -1,4 +1,4 @@
-import './Navbar.css'
+import './Navbar.css';
 
 const Navbar = () => {
     return ( 
@@ -8,7 +8,7 @@ const Navbar = () => {
                 <li className="list-items">
                     <a href="/">Home</a>
                 </li>
-                <li className="list-items" style={{ backgroundColor: "var(--themeColor4)", borderRadius: '30px'}}>
+                <li className="list-items" style={{ backgroundColor: "var(--themeColor4)", borderRadius: '5px'}}>
                     <a href="/create" style={{color: 'white'}}>New Blogs</a>
                 </li>
             </ul>
